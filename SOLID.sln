@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.S", "SOLID.S\SOLID.S.csproj", "{8CB94CB0-922E-4C58-B022-3022D8B26CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.O", "SOLID.O\SOLID.O.csproj", "{134C3508-37D5-414B-8E72-02A0FF5F20B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.L", "SOLID.L\SOLID.L.csproj", "{C3CC5F8E-DB14-4D7D-9DCB-CC923CF97F95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CB94CB0-922E-4C58-B022-3022D8B26CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB94CB0-922E-4C58-B022-3022D8B26CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB94CB0-922E-4C58-B022-3022D8B26CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB94CB0-922E-4C58-B022-3022D8B26CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134C3508-37D5-414B-8E72-02A0FF5F20B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134C3508-37D5-414B-8E72-02A0FF5F20B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134C3508-37D5-414B-8E72-02A0FF5F20B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134C3508-37D5-414B-8E72-02A0FF5F20B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CC5F8E-DB14-4D7D-9DCB-CC923CF97F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CC5F8E-DB14-4D7D-9DCB-CC923CF97F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CC5F8E-DB14-4D7D-9DCB-CC923CF97F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CC5F8E-DB14-4D7D-9DCB-CC923CF97F95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
