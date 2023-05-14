@@ -1,0 +1,42 @@
+﻿@startuml
+'https://plantuml.com/class-diagram
+
+abstract Transport {
++ Name : string
+}
+
+interface ICargo {
++ {abstract} CargoLoad() : void
++ {abstract} CargoUnload() : void
+}
+
+interface IPassenger {
++ {abstract} PassengerBoardin() : void
++ {abstract} PassengerBoardin() : void
+}
+
+Transport <|-- TruckBus
+ICargo <|.. TruckBus
+IPassenger <|.. TruckBus
+class TruckBus {
++ CargoLoad() : void
++ CargoUnload() : void
++ PassengerBoardin() : void
++ PassengerBoardin() : void
+}
+
+Transport <|-- Bus
+IPassenger <|.. Bus
+class Bus {
++ PassengerBoardin() : void
++ PassengerBoardin() : void
+}
+
+Transport <|-- Truck
+ICargo <|.. Truck
+class Truck {
++ CargoLoad() : void
++ CargoUnload() : void
+}
+
+@enduml
